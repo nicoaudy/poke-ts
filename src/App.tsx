@@ -6,6 +6,7 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <PokemonSearch name="Nico Audy" numberOfPokemons={5} />
+      <PokemonSearch name="John Doe" />
     </div>
   );
 };
