@@ -22,6 +22,10 @@ export class PokemonSearch extends Component<User, SearchState> {
     this.pokemonRef = React.createRef();
   }
 
+  onSearchClick = () => {
+    const inputValue = this.pokemonRef.current.value;
+  };
+
   render() {
     const { name, numberOfPokemons } = this.props;
 
